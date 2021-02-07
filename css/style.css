@@ -1,0 +1,57 @@
+:root {
+    --color-first: #037171;
+    --color-second: #03312E;
+    --color-third: #E0FBFC;
+}
+
+body {
+    background-color: var(--color-first);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-second);
+    height: 50px;
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--color-third);
+}
+
+header .logo {
+    margin: 4px 0 0 10px;
+    width: 30px;
+    height: 30px;
+}
+
+header .menu {
+    display: flex;
+}
+
+header .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+header .menu ul li {
+    margin: 0 15px;
+    
+}
+
+header .menu ul li:before {
+    content: '\25AA';
+    margin: 0 2px;
+    color: var(--color-first);
+}
+
+a {
+    background-color: var(--color-first);
+    color: var(--color-third);
+    /* width: 100px;
+    height: 45px; */
+    padding: 12px 18px;
+    margin-right: 8px;
+    box-shadow: 3px 3px black;
+}
+
+
