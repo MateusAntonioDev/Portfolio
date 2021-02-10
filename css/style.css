@@ -26,31 +26,23 @@ header .logo {
 
 header .menu {
     display: flex;
-}
-
-header .menu ul {
-    display: flex;
     align-items: center;
 }
 
-header .menu ul li {
-    margin: 0 15px;
-    
+header .menu a {
+    margin: 0 15px;   
 }
 
-header .menu ul li:before {
+header .menu .action:before {
     content: '\25AA';
     margin: 0 2px;
     color: var(--color-first);
 }
 
-a {
+.button {
     background-color: var(--color-first);
     color: var(--color-third);
-    /* width: 100px;
-    height: 45px; */
     padding: 12px 18px;
-    margin-right: 8px;
     box-shadow: 3px 3px black;
 }
 
