@@ -13,15 +13,16 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-second);
-    height: 50px;
-    font-family: 'Share Tech Mono', monospace;
-    color: var(--color-third);
+    height: 80px;
+    box-shadow: 0 5px 4px #000;
 }
 
 header .logo {
     margin: 4px 0 0 10px;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 3px #000;
+    border-radius: 10px;
 }
 
 header .menu {
@@ -30,20 +31,22 @@ header .menu {
 }
 
 header .menu a {
-    margin: 0 15px;   
+    margin-right: 30px;
+    color: var(--color-third); 
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    text-decoration: none;  
 }
 
-header .menu .action:before {
-    content: '\25AA';
-    margin: 0 2px;
-    color: var(--color-first);
-}
-
-.button {
+header .menu .button {
     background-color: var(--color-first);
     color: var(--color-third);
-    padding: 12px 18px;
-    box-shadow: 3px 3px black;
+    height: 60px;
+    width: 170px;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 10px;
 }
 
 
