@@ -31,6 +31,8 @@ header .menu {
 }
 
 header .menu a {
+    display: flex;
+    align-items: center;
     margin-right: 30px;
     color: var(--color-third); 
     font-family: 'Share Tech Mono', monospace;
@@ -38,13 +40,19 @@ header .menu a {
     text-decoration: none;  
 }
 
+header .menu .link::before {
+    content: '';
+    display: inline-block;
+    background-color: var(--color-first);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
 header .menu .button {
     background-color: var(--color-first);
-    color: var(--color-third);
-    height: 60px;
-    width: 170px;
-    line-height: 60px;
-    text-align: center;
+    padding: 18px 20px;
     box-shadow: 5px 5px 8px black;
     border-radius: 10px;
 }
