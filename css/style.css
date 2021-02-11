@@ -37,7 +37,13 @@ header .menu a {
     color: var(--color-third); 
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
-    text-decoration: none;  
+    text-decoration: none;
+    transition: text-decoration 0.3s, transform 0.3s;  
+}
+
+header .menu .link:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 header .menu .link::before {
@@ -56,6 +62,10 @@ header .menu .button {
     box-shadow: 5px 5px 8px black;
     border-radius: 10px;
     margin-right: 0;
+    transition: transform 0.5s;
 }
 
-
+header .menu .button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0;
+}
