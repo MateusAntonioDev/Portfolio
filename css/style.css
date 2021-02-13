@@ -18,35 +18,38 @@ header {
     padding: 0 20px;
 }
 
-header .logo {
+.logo {
     width: 60px;
     height: 60px;
     border: 1.5px solid #000;
     border-radius: 10px;
 }
 
-header .menu {
+.menu {
     display: flex;
     align-items: center;
 }
 
-header .menu a {
+.menu a {
     display: flex;
-    align-items: center;
-    margin-right: 30px;
+    align-items: center;    
     color: var(--color-third); 
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
-    text-decoration: none;
-    transition: text-decoration 0.3s, transform 0.3s;  
+    text-decoration: none;    
 }
 
-header .menu .link:hover {
+.link {
+    margin-right: 30px;
+    transition: text-decoration 0.2s, transform 0.2s;  
+}
+
+.link:hover {
     text-decoration: underline;
     transform: scale(1.1);
 }
 
-header .menu .link::before {
+.link::before {
     content: '';
     display: inline-block;
     background-color: var(--color-first);
@@ -56,16 +59,16 @@ header .menu .link::before {
     border-radius: 50%;
 }
 
-header .menu .button {
+.button {
     background-color: var(--color-first);
     padding: 18px 20px;
     box-shadow: 5px 5px 8px black;
     border-radius: 10px;
     margin-right: 0;
-    transition: transform 0.5s;
+    transition: transform 0.2s;
 }
 
-header .menu .button:hover {
+.button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 0;
 }
