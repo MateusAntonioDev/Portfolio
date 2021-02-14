@@ -6,6 +6,16 @@
 
 body {
     background-color: var(--color-first);
+    color: var(--color-third);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 48px;
 }
 
 header {
@@ -32,7 +42,7 @@ header {
 
 .menu a {
     display: flex;
-    align-items: center;    
+    align-items: center;
     color: var(--color-third); 
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
@@ -71,4 +81,19 @@ header {
 .button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 0;
+}
+
+.intro {
+    width: 627px;
+    height: 184px;
+    background-color: var(--color-second);
+    margin-top: 206px;
+    margin-left: 91px;
+    padding: 29px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.intro h1 {
+    color: var(--color-first);
 }
