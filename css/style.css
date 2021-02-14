@@ -30,7 +30,7 @@ header {
     align-items: center;
     background-color: var(--color-second);
     height: 80px;
-    box-shadow: 0 5px 4px #000;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.849);
     padding: 0 20px;
 }
 
@@ -71,7 +71,7 @@ header {
 .button {
     background-color: var(--color-first);
     padding: 18px 20px;
-    box-shadow: 5px 5px 8px black;
+    box-shadow: 5px 5px 8px #000;
     border-radius: 10px;
     margin-right: 0;
     transition: transform 0.2s;
@@ -105,7 +105,7 @@ header {
     padding: 29px 0;
     text-align: center;
     box-sizing: border-box;
-    box-shadow: 5px 5px 8px black;
+    box-shadow: 5px 5px 8px #000;
     border-radius: 10px;
 }
 
@@ -123,6 +123,6 @@ header {
     width: calc(100vw - 811px);
     background: url(../assets/img/mateus.jpg) no-repeat center;
     background-size: 100% 100%;
-    border-left: 3px solid rgba(0, 0, 0, 0.849);
+    border-left: 4px solid rgba(0, 0, 0, 0.849);
 }
 
