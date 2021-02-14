@@ -18,6 +18,12 @@ h2 {
     font-size: 48px;
 }
 
+a {  
+    color: var(--color-third); 
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px; 
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -40,16 +46,9 @@ header {
     align-items: center;
 }
 
-.menu a {
+.link {
     display: flex;
     align-items: center;
-    color: var(--color-third); 
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 20px;
-    text-decoration: none;    
-}
-
-.link {
     margin-right: 30px;
     transition: text-decoration 0.2s, transform 0.2s;  
 }
@@ -83,17 +82,38 @@ header {
     box-shadow: 0 0 0;
 }
 
-.intro {
+.main-banner {
+    display: flex;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 811px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
     width: 627px;
     height: 184px;
     background-color: var(--color-second);
-    margin-top: 206px;
-    margin-left: 91px;
+    margin-bottom: 24px;
     padding: 29px 0;
     text-align: center;
     box-sizing: border-box;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 10px;
 }
 
-.intro h1 {
+.main-box h1 {
     color: var(--color-first);
 }
+
+.navigation{
+    width: 627px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
