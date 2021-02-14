@@ -88,6 +88,8 @@ header {
 }
 
 .wrapper {
+    background: url(../assets/img/wallpaper.jpg) no-repeat center;
+    background-size: 811px 100%;
     width: 811px;
     display: flex;
     flex-direction: column;
@@ -115,5 +117,12 @@ header {
     width: 627px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.main-photo {
+    width: calc(100vw - 811px);
+    background: url(../assets/img/mateus.jpg) no-repeat center;
+    background-size: 100% 100%;
+    border-left: 3px solid rgba(0, 0, 0, 0.849);
 }
 
