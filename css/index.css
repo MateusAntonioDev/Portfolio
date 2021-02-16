@@ -89,18 +89,6 @@ header {
     align-items: center;
 }
 
-.main-box {
-    width: 627px;
-    height: 184px;
-    background-color: var(--color-second);
-    margin-bottom: 24px;
-    padding: 29px 0;
-    text-align: center;
-    box-sizing: border-box;
-    box-shadow: 5px 5px 8px #000;
-    border-radius: 10px;
-}
-
 .navigation{
     width: 627px;
     display: flex;
