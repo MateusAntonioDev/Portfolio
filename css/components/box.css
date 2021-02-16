@@ -1,11 +1,11 @@
 .main-box {
-    display: inline-block;
     background-color: var(--color-second);
-    margin-bottom: 24px;
-    padding: 35px 35px;
-    text-align: center;
-    box-sizing: border-box;
     box-shadow: 5px 5px 8px #000;
     border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 24px;
+    padding: 35px 35px;
+    box-sizing: border-box;
 }
 

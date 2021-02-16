@@ -1,0 +1,23 @@
+.link {  
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: var(--color-third); 
+    transition: text-decoration 0.2s, transform 0.2s;
+}
+
+.link:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.link::before {
+    content: '';
+    background-color: var(--color-first);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}

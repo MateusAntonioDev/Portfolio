@@ -4,76 +4,6 @@
     --color-third: #ecf0f1;
 }
 
-body {
-    background-color: var(--color-first);
-    color: var(--color-third);
-    font-family: 'Share Tech Mono', monospace;
-}
-
-a {  
-    color: var(--color-third); 
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 20px; 
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color-second);
-    height: 80px;
-    border-bottom: 4px solid rgba(0, 0, 0, 0.849);
-    padding: 0 20px;
-}
-
-.logo {
-    width: 60px;
-    height: 60px;
-    border: 1.5px solid #000;
-    border-radius: 10px;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.link {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-    transition: text-decoration 0.2s, transform 0.2s;  
-}
-
-.link:hover {
-    text-decoration: underline;
-    transform: scale(1.1);
-}
-
-.link::before {
-    content: '';
-    display: inline-block;
-    background-color: var(--color-first);
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-.button {
-    background-color: var(--color-first);
-    padding: 18px 20px;
-    box-shadow: 5px 5px 8px #000;
-    border-radius: 10px;
-    margin-right: 0;
-    transition: transform 0.2s;
-}
-
-.button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 0;
-}
-
 .main-banner {
     display: flex;
     height: 100vh;
@@ -101,4 +31,3 @@ header {
     background-size: 100% 100%;
     border-left: 4px solid rgba(0, 0, 0, 0.849);
 }
-
