@@ -10,10 +10,6 @@ body {
     font-family: 'Share Tech Mono', monospace;
 }
 
-h1 {
-    font-size: 72px;
-}
-
 h2 {
     font-size: 48px;
 }
@@ -107,10 +103,6 @@ header {
     box-sizing: border-box;
     box-shadow: 5px 5px 8px #000;
     border-radius: 10px;
-}
-
-.main-box h1 {
-    color: var(--color-first);
 }
 
 .navigation{

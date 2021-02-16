@@ -1,0 +1,8 @@
+h1 {
+    font-size: 64px;
+}
+
+.main-box h1 {
+    color: var(--color-first);
+    text-shadow: 3px 3px 5px #000;
+}
