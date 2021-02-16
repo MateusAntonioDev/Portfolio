@@ -4,4 +4,4 @@ Projeto que está sendo desenvolvido durante o curso de HTML e CSS do Marco Brun
 - https://mateusntn.github.io/
 
 ### Protótipo:
-<img src="assets/img/toReadme/Portfolio.png" alt="Imagem do Protótipo">
+<img src="assets/img/toReadme/prototype.png" alt="Imagem do Protótipo">
