@@ -3,3 +3,9 @@
     color: var(--color-first);
     text-shadow: 3px 3px 5px #000;
 }
+
+.title.-second {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+}
