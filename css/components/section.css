@@ -3,7 +3,6 @@
     background-color: var(--color-first);
     padding: 50px 0 100px 0;
     border-bottom: 4px solid rgba(0, 0, 0, 0.849);
-    height: 100vh;
 }
 
 .section .main-title {
