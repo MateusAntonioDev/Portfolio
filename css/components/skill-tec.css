@@ -1,0 +1,10 @@
+.skill-tec {
+    display: flex;
+    font-size: 25px;
+    color: var(--color-third);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+}
