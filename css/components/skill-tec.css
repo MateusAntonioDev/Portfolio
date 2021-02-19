@@ -1,16 +1,22 @@
 .skill-tec {
     display: flex;
     font-size: 25px;
+    align-items: center;
     color: var(--color-third);
     font-family: 'Share Tech Mono', monospace;
 }
 
 .skill-tec .icon {
     margin-right: 25px;
+    width: 90px;
 }
 
 .skill-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.skill-tec .title {
+    margin-bottom: 10px;
 }
