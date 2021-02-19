@@ -5,3 +5,7 @@
     border-bottom: 4px solid rgba(0, 0, 0, 0.849);
     height: 100vh;
 }
+
+.section .main-title {
+    margin-bottom: 60px;
+}
