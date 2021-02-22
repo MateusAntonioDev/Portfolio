@@ -1,4 +1,4 @@
-.header {
+.main-header {
     background-color: var(--color-second);
     border-bottom: 4px solid rgba(0, 0, 0, 0.849);
     display: flex;
@@ -6,7 +6,7 @@
     padding: 10px 20px;
 }
 
-.header .logo {
+.main-header .logo {
     width: 60px;
     height: 60px;
     border: 1.5px solid #000;
