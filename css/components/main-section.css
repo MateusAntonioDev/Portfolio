@@ -1,14 +1,14 @@
-.section {
+.main-section {
     box-sizing: border-box;
     background-color: var(--color-first);
     padding: 50px 0 100px 0;
     border-bottom: 4px solid rgba(0, 0, 0, 0.849);
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 60px;
 }
 
-.section.-bgSecond {
+.main-section.-bgSecond {
     background-color: var(--color-second);
 }
