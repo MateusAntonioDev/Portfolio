@@ -17,6 +17,14 @@
     width: 17px;
     height: 17px;
     border: 17px solid transparent;
+}
+
+.button-arrow.-right::before {
     border-left: 28px solid var(--color-third);
     transform: translateX(5px);
+}
+
+.button-arrow.-left::before {
+    border-right: 28px solid var(--color-third);
+    transform: translateX(-15px);
 }
