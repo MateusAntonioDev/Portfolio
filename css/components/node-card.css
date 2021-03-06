@@ -1,0 +1,31 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before {
+    content: '';
+    position: absolute;
+    bottom: 128px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 0;
+    border: 3.4px dashed #000;
+}
+
+.node-card .title {
+    font-size: 25px;
+    color: var(--color-second);
+    margin-bottom: 50px;
+}
+
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 128px;
+    width: 212px;
+    border: 5px solid #000;
+}
