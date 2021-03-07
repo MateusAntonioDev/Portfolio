@@ -8,11 +8,11 @@
 .main-carousel::after {
     content: '';
     position: absolute;
-    left: 40px;
+    left: 75px;
     top: 49px;
     display: block;
     height: 5px;
-    width: calc(100% - 100px);
+    width: calc(100% - 150px);
     background-color: #000;
 }
 
@@ -22,7 +22,7 @@
     left: 0;
     top: 49px;
     display: block;
-    border-top: 5.5px dashed #000;
+    border-top: 5.4px dashed #000;
     width: 100%;
 }
 
