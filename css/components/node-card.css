@@ -12,13 +12,13 @@
     box-sizing: border-box;
     height: 50px;
     width: 0;
-    border: 3.4px dashed #000;
+    border-right: 5px dashed #000;
 }
 
 .node-card .title {
-    font-size: 25px;
+    font-size: 40px;
     color: var(--color-second);
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .node-card .logo {
