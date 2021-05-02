@@ -23,6 +23,7 @@
     padding-left: 7px;
     padding-right: 7px;
     margin-bottom: 20px;
+    outline: none;
 }
 
 .main-form .main-input.-textarea {
