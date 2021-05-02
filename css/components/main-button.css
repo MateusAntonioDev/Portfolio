@@ -9,9 +9,18 @@
     margin-right: 0;
     border-radius: 10px;
     transition: transform 0.2s;
+    cursor: pointer;
 }
 
 .main-button:hover {
     box-shadow: 0 0 0;
     transform: scale(1.1);
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
