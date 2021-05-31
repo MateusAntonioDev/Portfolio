@@ -1,6 +1,6 @@
-# Portfólio (Em desenvolvimento :man_technologist:)
+# Portfólio 
 
-Projeto que está sendo desenvolvido durante o curso de HTML e CSS do Marco Bruno.
+Projeto foi desenvolvido durante o curso de HTML e CSS do Marco Bruno.
 - https://mateusntn.github.io/
 
 ### Protótipo:
